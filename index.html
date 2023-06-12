@@ -8,34 +8,43 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;600;800&family=Oswald:wght@400;500;700&display=swap");
 
-      body {
-        background-color: #040200;
-        color: #dbd7d2;
-        font-family: "Geologica";
-      }
+      body{
+  
+  background-color: #040200;
+  color: #DBD7D2;
+  font-family: "Geologica";
+}
 
-      .marquee {
-        white-space: nowrap;
-        overflow: hidden;
-      }
 
-      .marquee span {
-        display: inline-block;
-        animation: marquee 120s linear infinite;
-      }
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+}
 
-      .marquee {
-        animation-delay: 6s;
-      }
+.marquee span {
+  display: inline-block;
+  animation: marquee 120s linear infinite;
+}
 
-      @keyframes marquee {
-        0% {
-          transform: translate(0, 0);
-        }
-        100% {
-          transform: translate(-100%, 0);
-        }
-      }
+.marquee {
+  animation-delay: 6s;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+@media screen and (min-width: 342px){
+  .contact-section  > ul > li > a > figure{
+    height: 3rem;
+    width: 3rem;
+  }
+}
     </style>
      <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -45,7 +54,7 @@
       <p class="w-24 cursor-pointer border-slate-200 border-opacity-0 pl-1 text-left uppercase tracking-wide transition-all duration-700 hover:border-b-2 hover:border-opacity-60">Hamad</p>
     </header>
     
-    <section class="flex h-screen flex-col overflow-x-hidden border-red-300">
+    <section class="flex h-screen flex-col justify-around overflow-x-hidden border-red-300">
       <div class="marquee mt-20 w-full border-sky-400">
         <span class="whitespace-nowrap text-center text-7xl uppercase text-[#1A1C20]">Modern Web Development Modern Web Development Modern Web Development Modern Web Development</span>
         <br />
@@ -61,14 +70,13 @@
     </section>
     <p class="-mt-1 border-b-[1px] border-gray-800 opacity-70"></p>
     
-    <section class="mt-24 h-fit border-amber-500 ">
+    <section class="mt-24 h-fit border-amber-500">
       <p class="px-4 text-4xl font-semibold uppercase opacity-95">Projects</p>
-      <p class="px-4 mt-4 opacity-80">Below are some of the projects that I have worked on, and they have been immensely helpful in solidifying my concepts in web development.</p>
+      <p class="mt-4 px-4 opacity-80">Below are some of the projects that I have worked on, and they have been immensely helpful in solidifying my concepts in web development.</p>
     
       <ul class="my-20 flex flex-col gap-12 border-rose-600">
-    
         <li class="">
-          <a class="px-4 grid grid-cols-1 gap-7" href="">
+          <a class="grid grid-cols-1 gap-7 px-4" href="">
             <figure class="h-full">
               <img class="" src="https://i.imgur.com/D1qAtOC.png" alt="" />
             </figure>
@@ -83,11 +91,10 @@
             <p class="pl-2 opacity-80">A full-stack blog where users can read posts and leave their thoughts in the comments. This project is predominantly built on the MERN (MongoDB, Express.js, React, Node.js) stack.</p>
           </a>
           <p class="mt-4 border-b-[1px] border-gray-800 opacity-70"></p>
-    
         </li>
     
         <li class="">
-          <a class="px-4 grid grid-cols-1 gap-7" href="">
+          <a class="grid grid-cols-1 gap-7 px-4" href="">
             <figure class="h-full">
               <img class="" src="https://i.imgur.com/BwJTOdQ.png" alt="" />
             </figure>
@@ -102,12 +109,10 @@
             <p class="pl-2 opacity-80">Flip cards and match the same pair of images to win! This is the very first project I made with React</p>
           </a>
           <p class="mt-4 border-b-[1px] border-gray-800 opacity-70"></p>
-    
         </li>
     
-    
         <li class="">
-          <a class="px-4 grid grid-cols-1 gap-7" href="">
+          <a class="grid grid-cols-1 gap-7 px-4" href="">
             <figure class="h-full">
               <img class="" src="https://i.imgur.com/pdfUK5z.png" alt="" />
             </figure>
@@ -119,15 +124,13 @@
                 </svg>
               </span>
             </p>
-            <p class="pl-2 opacity-80">Developed a shopping cart using React to reinforce understanding of React concepts, particularly state management, suffice it to say it served as a valuable learning experience.
-            </p>
+            <p class="pl-2 opacity-80">Developed a shopping cart using React to reinforce understanding of React concepts, particularly state management, suffice it to say it served as a valuable learning experience.</p>
           </a>
           <p class="mt-4 border-b-[1px] border-gray-800 opacity-70"></p>
-    
         </li>
     
-       <li class="">
-          <a class="px-4 grid grid-cols-1 gap-7" href="">
+        <li class="">
+          <a class="grid grid-cols-1 gap-7 px-4" href="">
             <figure class="h-full">
               <img class="" src="https://i.imgur.com/v9b350G.png" alt="" />
             </figure>
@@ -139,13 +142,145 @@
                 </svg>
               </span>
             </p>
-            <p class="pl-2 opacity-80">After familarzing myself with JavaScript and its syntax, I set out to create a somewhat beginner-friendly project, then converted this into React eventually to improv its functionality and user experience.   
-            </p>
+            <p class="pl-2 opacity-80">After familarzing myself with JavaScript and its syntax, I set out to create a somewhat beginner-friendly project, then converted this into React eventually to improv its functionality and user experience.</p>
           </a>
           <p class="mt-4 border-b-[1px] border-gray-800 opacity-70"></p>
         </li>
       </ul>
     </section>
+    
+    <section class="mb-24 px-4">
+      <p class=" text-4xl font-semibold uppercase leading-9 opacity-95">Skills</p>
+      <p class="opacity-80 py-4">Staying up-to-date in the quickly advancing field of web development can be challenging, and I actively seek ways to keep myself updated, here are some of the technologies that I have worked with.</p>
+    
+    
+      <ul class="mt-6 grid grid-cols-3 gap-4">
+        <li class="">
+          <img src="https://img.icons8.com/?size=512&id=108784&format=png" alt="">
+        </li>
+        <li>
+          <img src="https://img.icons8.com/?size=512&id=13441&format=png" alt="">
+        </li>
+        <li>
+          <img src="https://img.icons8.com/?size=512&id=123603&format=png" alt="">
+        </li>
+        <li>
+          <img src="https://img.icons8.com/?size=512&id=54087&format=png" alt="">
+        </li>
+        <li>
+          <img src="https://img.icons8.com/?size=512&id=SDVmtZ6VBGXt&format=png" alt="">
+        </li>
+        <li>
+          <img src="https://img.icons8.com/?size=512&id=CIAZz2CYc6Kc&format=png" alt="">
+        </li>
+        <img src="https://img.icons8.com/?size=512&id=74402&format=png" alt="">
+        <li>
+          <img src="https://img.icons8.com/?size=512&id=13406&format=png" alt="">
+        </li>
+        <li>
+          <img src="https://img.icons8.com/?size=512&id=qV-JzWYl9dzP&format=png" alt="">
+        </li>
+      </ul>
+    
+    </section>
+    
+    <p class="mb-10 -mt-3 border-b-[1px] border-gray-800 opacity-70"></p>
+    
+    <section class="contact-section h-96 border-orange-500">
+      <p class="px-4 text-4xl font-semibold uppercase leading-9 opacity-95">Contact</p>
+    
+      <ul class="my-6 flex flex-col gap-5">
+        <li class="">
+          <a class="flex flex-wrap items-center gap-6 px-4" href="">
+            <figure class="h-7 w-7">
+              <img src="https://img.icons8.com/?size=512&id=13963&format=png" alt="" />
+            </figure>
+    
+            <p class="flex gap-1">
+              hammad_es7
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+              </span>
+            </p>
+          </a>
+        </li>
+        <p class="border-b-[1px] border-gray-800 opacity-70"></p>
+    
+        <li class="">
+          <a class="flex flex-wrap items-center gap-6 px-4" href="">
+            <figure class="h-7 w-7">
+              <img src="https://img.icons8.com/?size=512&id=13930&format=png" alt="" />
+            </figure>
+    
+            <p class="flex gap-1">
+              hammad-ali-700b951b5
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+              </span>
+            </p>
+          </a>
+        </li>
+        <p class="border-b-[1px] border-gray-800 opacity-70"></p>
+    
+        <li class="">
+          <a class="flex flex-wrap items-center gap-6 px-4" href="mailto:captain.gaze@gmail.com">
+            <figure class="h-7 w-7">
+              <img src="https://img.icons8.com/?size=512&id=LPcVDft9Isqt&format=png" alt="" />
+            </figure>
+    
+            <p class="flex gap-1">
+              captain.gaze@gmail.com
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+              </span>
+            </p>
+          </a>
+        </li>
+    <p class="mt-4 border-b-[1px] border-gray-800 opacity-70"></p>
+      </ul>
+    </section>
+    
+    
+    
+    
+    
+    
+    <footer class="mb-20 mt-16">
+      <p class="px-4 text-lg opacity-75">Join me on this epic odyssey!</p>
+    
+      <ul class="flex flex-wrap justify-between px-4 py-6">
+        <li>
+          <a href="">
+            <p class="flex flex-wrap items-center gap-3">
+              Twiiter
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+              </span>
+            </p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <p class="flex flex-wrap items-center gap-3">
+              Github
+              <span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+              </span>
+            </p>
+          </a>
+        </li>
+      </ul>
+    </footer>
     
   </body>
 </html>
