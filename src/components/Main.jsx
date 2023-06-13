@@ -24,14 +24,13 @@ const Main = () => {
             I excel at crafting web applications and using technologies to
             create user-friendly and innovative solutions.
           </p>
-          <button class="my-1 w-fit border-2 border-[#DBD7D2] px-8 py-2 uppercase transition-all duration-1000 hover:border-black hover:bg-white hover:text-black">
-            <a
-              target="_blank"
-              href="https://drive.google.com/file/d/13dD6AhPrOfsReadM8Et76B0p_8W24FUj/view?usp=sharing"
-            >
-              Resume
-            </a>
-          </button>
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/13dD6AhPrOfsReadM8Et76B0p_8W24FUj/view?usp=sharing"
+            className="my-1 w-fit border-2 border-[#DBD7D2] px-8 py-2 uppercase transition-all duration-1000 hover:border-black hover:bg-white hover:text-black"
+          >
+            Resume
+          </a>
         </article>
       </main>
       <p className="-mt-1 border-b-[1px] border-gray-800 opacity-70"></p>
