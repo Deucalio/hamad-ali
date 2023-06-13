@@ -24,7 +24,7 @@ const Footer = () => {
 
         <ul className="flex flex-wrap lg:w-1/3 lg:gap-6 lg:px-6 justify-between px-4 py-6">
           <li>
-            <a href="">
+            <a target="_blank" href="https://twitter.com/hammad_es7">
               <p className="flex flex-wrap items-center gap-3 transition-all duration-500 hover:opacity-50 hover:-translate-y-1">
                 Twitter
                 <span>
@@ -47,7 +47,7 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a target="_blank" href="https://github.com/Deucalio">
               <p className="flex flex-wrap items-center gap-3 transition-all duration-500 hover:opacity-50 hover:-translate-y-1">
                 Github
                 <span>
@@ -86,7 +86,7 @@ const Contact = () => {
         <li className="">
           <a
             className="flex flex-wrap items-center gap-6 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
-            href=""
+            target="_blank" href="https://twitter.com/hammad_es7"
           >
             <figure className="h-7 w-7">
               <img
@@ -119,9 +119,9 @@ const Contact = () => {
         <p className="border-b-[1px] border-gray-800 opacity-70"></p>
 
         <li className="">
-          <a
+          <a target="_blank"
             className="flex flex-wrap items-center gap-6 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
-            href=""
+            href="https://www.linkedin.com/in/hammad-ali-700b951b5/"
           >
             <figure className="h-7 w-7">
               <img
@@ -253,9 +253,9 @@ const Projects = () => {
 
         <ul className="my-20 flex flex-col gap-12 border-rose-600">
           <li className="">
-            <a
+            <a target="_blank"
               className="grid grid-cols-1 lg:grid-cols-3 lg:place-items-center gap-7 px-4 lg:px-8 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
-              href=""
+              href="https://mernstack-blog.vercel.app"
             >
               <figure className="h-full">
                 <img className="lg:p-12 rounded-md " src={blogPNG} alt="" />
@@ -289,9 +289,9 @@ const Projects = () => {
           </li>
 
           <li className="">
-            <a
+            <a target="_blank"
               className="grid grid-cols-1 lg:grid-cols-3 lg:place-items-center gap-7 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
-              href=""
+              href="https://deucalio.github.io/memory-match/"
             >
               <figure className="h-full">
                 <img
@@ -328,9 +328,10 @@ const Projects = () => {
           </li>
 
           <li className="">
-            <a
+            <a 
+              target="_blank"
               className="grid grid-cols-1 lg:grid-cols-3 lg:place-items-center gap-7 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
-              href=""
+              href="https://astounding-cupcake-04c95e.netlify.app"
             >
               <figure className="h-full">
                 <img className="lg:p-4 rounded-md" src={spideyPNG} alt="" />
@@ -364,9 +365,9 @@ const Projects = () => {
           </li>
 
           <li className="">
-            <a
+            <a target="_blank"
               className="grid grid-cols-1 lg:grid-cols-3 lg:place-items-center gap-7 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
-              href=""
+              href="https://sage-kelpie-816120.netlify.app/"
             >
               <figure className="h-full">
                 <img className="lg:p-4 rounded-md" src={todoPNG} alt="" />
