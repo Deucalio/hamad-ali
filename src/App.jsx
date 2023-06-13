@@ -86,7 +86,8 @@ const Contact = () => {
         <li className="">
           <a
             className="flex flex-wrap items-center gap-6 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
-            target="_blank" href="https://twitter.com/hammad_es7"
+            target="_blank"
+            href="https://twitter.com/hammad_es7"
           >
             <figure className="h-7 w-7">
               <img
@@ -119,7 +120,8 @@ const Contact = () => {
         <p className="border-b-[1px] border-gray-800 opacity-70"></p>
 
         <li className="">
-          <a target="_blank"
+          <a
+            target="_blank"
             className="flex flex-wrap items-center gap-6 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
             href="https://www.linkedin.com/in/hammad-ali-700b951b5/"
           >
@@ -206,29 +208,31 @@ const Skills = () => {
         </p>
 
         <ul className="mt-6 grid grid-cols-3 gap-4 lg:w-3/4 sm:place-items-center lg:gap-x-24 lg:gap-y-4 lg:pr-36 lg:place-items-start ">
-          <li className="">
+          <li className="transition-all duration-300 hover:opacity-50 hover:-translate-y-2">
             <img className="sm:h-24" src={js} alt="" />
           </li>
-          <li>
+          <li className="transition-all duration-300 hover:opacity-50 hover:-translate-y-2">
             <img className="sm:h-24" src={py} alt="" />
           </li>
-          <li>
+          <li className="transition-all duration-300 hover:opacity-50 hover:-translate-y-2">
             <img className="sm:h-24" src={react} alt="" />
           </li>
-          <li>
+          <li className="transition-all duration-300 hover:opacity-50 hover:-translate-y-2">
             <img className="sm:h-24" src={node} alt="" />
           </li>
-          <li>
+          <li className="transition-all duration-300 hover:opacity-50 hover:-translate-y-2">
             <img className="sm:h-24" src={exp} alt="" />
           </li>
-          <li>
+          <li className="transition-all duration-300 hover:opacity-50 hover:-translate-y-2">
             <img className="sm:h-24" src={tailwind} alt="" />
           </li>
-          <img className="sm:h-24" src={mongo} alt="" />
-          <li>
+          <li className="transition-all duration-300 hover:opacity-50 hover:-translate-y-2">
+            <img className="sm:h-24" src={mongo} alt="" />
+          </li>
+          <li className="transition-all duration-300 hover:opacity-50 hover:-translate-y-2">
             <img className="sm:h-24" src={sql} alt="" />
           </li>
-          <li>
+          <li className="transition-all duration-300 hover:opacity-50 hover:-translate-y-2">
             <img className="sm:h-24" src={django} alt="" />
           </li>
         </ul>
@@ -253,7 +257,8 @@ const Projects = () => {
 
         <ul className="my-20 flex flex-col gap-12 border-rose-600">
           <li className="">
-            <a target="_blank"
+            <a
+              target="_blank"
               className="grid grid-cols-1 lg:grid-cols-3 lg:place-items-center gap-7 px-4 lg:px-8 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
               href="https://mernstack-blog.vercel.app"
             >
@@ -289,7 +294,8 @@ const Projects = () => {
           </li>
 
           <li className="">
-            <a target="_blank"
+            <a
+              target="_blank"
               className="grid grid-cols-1 lg:grid-cols-3 lg:place-items-center gap-7 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
               href="https://deucalio.github.io/memory-match/"
             >
@@ -328,7 +334,7 @@ const Projects = () => {
           </li>
 
           <li className="">
-            <a 
+            <a
               target="_blank"
               className="grid grid-cols-1 lg:grid-cols-3 lg:place-items-center gap-7 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
               href="https://astounding-cupcake-04c95e.netlify.app"
@@ -365,7 +371,8 @@ const Projects = () => {
           </li>
 
           <li className="">
-            <a target="_blank"
+            <a
+              target="_blank"
               className="grid grid-cols-1 lg:grid-cols-3 lg:place-items-center gap-7 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
               href="https://sage-kelpie-816120.netlify.app/"
             >
@@ -407,9 +414,6 @@ const Projects = () => {
 };
 
 const App = () => {
-
- 
-
   return (
     <>
       <Header />
