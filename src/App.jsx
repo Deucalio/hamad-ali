@@ -123,7 +123,7 @@ const Contact = () => {
           <a
             target="_blank"
             className="flex flex-wrap items-center gap-6 px-4 transition-all duration-500 hover:opacity-50 hover:-translate-y-1"
-            href="https://www.linkedin.com/in/hammad-ali-700b951b5/"
+            href="https://www.linkedin.com/in/hamad-ali-700b951b5/"
           >
             <figure className="h-7 w-7">
               <img
@@ -400,8 +400,8 @@ const Projects = () => {
               </p>
               <p className="pl-2 opacity-80 w-full mr-24">
                 After familarzing myself with JavaScript and its syntax, I set
-                out to create a somewhat beginner-friendly project, then
-                converted this into React eventually to improv its functionality
+                out to create a somewhat beginner-friendly project, so I made this todo-list then
+                converted this into React eventually to improve its functionality
                 and user experience.
               </p>
             </a>
