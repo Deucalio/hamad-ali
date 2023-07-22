@@ -363,7 +363,7 @@ const Projects = () => {
               </p>
               <p className="pl-2 opacity-80 w-full mr-24">
                 Developed a shopping cart using React to reinforce understanding
-                of React concepts, particularly state management, suffice it to
+                of React concepts, especially state management, suffice it to
                 say it served as a valuable learning experience.
               </p>
             </a>
