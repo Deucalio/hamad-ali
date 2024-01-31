@@ -26,7 +26,7 @@ const Main = () => {
           </p>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1iFli-h_skT1EB1TP8FCeTCqiVXtgokfZ/view"
+            href="https://drive.google.com/file/d/1iFli-h_skT1EB1TP8FCeTCqiVXtgokfZ/view?usp=sharing"
             className="my-1 w-fit border-2 border-[#DBD7D2] px-8 py-2 uppercase transition-all duration-1000 hover:border-black hover:bg-white hover:text-black"
           >
             Resume
