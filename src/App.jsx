@@ -15,6 +15,7 @@ import tailwind from "./assets/images/tailwind.png";
 import mongo from "./assets/images/mongo.png";
 import sql from "./assets/images/sql.png";
 import django from "./assets/images/django.png";
+import next from "/assets/images/next.png";
 
 const Footer = () => {
   return (
@@ -233,7 +234,7 @@ const Skills = () => {
             <img className="sm:h-24" src={sql} alt="" />
           </li>
           <li className="transition-all duration-300 hover:opacity-50 hover:-translate-y-2">
-            <img className="sm:h-24" src={django} alt="" />
+            <img className="sm:h-24" src={next} alt="" />
           </li>
         </ul>
       </section>
