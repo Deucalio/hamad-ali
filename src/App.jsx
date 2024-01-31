@@ -15,7 +15,7 @@ import tailwind from "./assets/images/tailwind.png";
 import mongo from "./assets/images/mongo.png";
 import sql from "./assets/images/sql.png";
 import django from "./assets/images/django.png";
-import next from "/assets/images/next.png";
+import next from "./assets/images/next.png";
 
 const Footer = () => {
   return (
